@@ -1,0 +1,28 @@
+{
+  "name": "be-scoping",
+  "version": "0.0.0",
+  "description": "",
+  "main": "be-scoping.js",
+  "module": "be-scoping.js",
+  "scripts": {
+    "package-check": "package-check"
+  },
+  "dependencies": {
+    "be-decorated": "0.0.164",
+    "be-observant": "0.0.149",
+    "trans-render": "0.0.617"
+  },
+  "devDependencies": {
+    "@skypack/package-check": "0.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahrus/be-scoping.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahrus/be-scoping/issues"
+  },
+  "homepage": "https://github.com/bahrus/be-scoping#readme"
+}
