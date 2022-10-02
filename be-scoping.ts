@@ -15,7 +15,7 @@ const tagName = 'be-scoping';
 
 const ifWantsToBe = 'scoping';
 
-const upgrade = 'script';
+const upgrade = '*';
 
 define<Proxy & BeDecoratedProps<Proxy, Actions>, Actions>({
     config:{

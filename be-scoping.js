@@ -10,7 +10,7 @@ export class BeScoping {
 }
 const tagName = 'be-scoping';
 const ifWantsToBe = 'scoping';
-const upgrade = 'script';
+const upgrade = '*';
 define({
     config: {
         tagName,
