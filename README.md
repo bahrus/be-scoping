@@ -59,7 +59,6 @@ Shorthand for:
 }'>
   export const Scriptlet = class {
     async do ({target, added, value, scope}) => {
-      target.contentEditable = added;
       scope[value] = ('href' in target) ? target.href : target.textContent;
     }
     
