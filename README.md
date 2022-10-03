@@ -15,10 +15,12 @@
 <script nomodule be-scoping='{
     "args": ["name"],
     "transform": {
-        "reviewsI": "value"
+        "reviewsI": "reviews"
     }
 }'>
-    `https://www.rottentomatoes.com/search?search=${name}`
+    {
+        reviews: `https://www.rottentomatoes.com/search?search=${name}`
+    }
 </script>
 <script nomodule be-let=itempropAs>
     scope[value] = 
