@@ -23,11 +23,8 @@
     }
 </script>
 <script nomodule be-let=itempropAs>
-    scope[value] = 
-      added ? 
-          ('href' in target) ? 
-            target.href 
-            : target.textContent
-      : undefined;
+    scope[value] = ('href' in target) ? target.href : target.textContent
 </script>
-  ```
+```
+
+[TODO]:  Figure out, then explain precisely how be-scoping differs from be-calculating.
